@@ -24,7 +24,7 @@ high-frequency trading, average daily volume, trading strategy<br>
 
 ## Methodology
 透過Rare Events Analysis for High-Frequency Equity Data論文所提供的方法<br>
-運用yfinance抓取資料，計算APPLE在一年內歷史股價，進行高頻罕見事件分析
+運用yfinance抓取股票的“收盤價”、“交易量”和“日期”，計算APPLE在一年內歷史股價，進行高頻罕見事件分析
 
 <br>-**捉歷史股價的工具**
 ```python
