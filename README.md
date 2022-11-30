@@ -1,8 +1,9 @@
 # 高頻罕見事件分析-APPLE股票數據👋
-Rare Events Analysis for High-Frequency Equity Data
-### Author
-Dragos Bozdog, Ionut¸ Florescu, Khaldoun Khashanah, and Jim Wang<br>
-Stevens Institute of Technology, e-mail: ifl oresc@stevens.edu
+## Rare Events Analysis for High-Frequency Equity Data
+September 2011Wilmott Journal 2011:74-81<br>
+Project: Rare Events<br>
+Authors：Dragos Bozdog, Ionut¸ Florescu, Khaldoun Khashanah, and Jim Wang<br>
+source：https://www.researchgate.net/publication/215958736_Rare_Events_Analysis_of_High-Frequency_Equity_Data
 ## Abstract
 In this work we present a methodology to detect rare events which are 
 defined as large price movements relative to the volume traded. We analyze 
@@ -13,6 +14,10 @@ for thousands of equities over a period of five days. In order to draw comprehen
 no assumption about the distribution of the random variables in the study.
 ## Keywords
 high-frequency trading, average daily volume, trading strategy<br>
+## Objectives
+開發一種即時檢測罕見事件的方法，其中價格變動較大且股票交易量相對較小<br>
+分析這些罕見事件后的價格行為，研究價格回升的概率。如果進行交易，在檢測到的觀察中，預期回報是多少？<br>
+
 <br>-**捉歷史股價的工具**
 ```python
 !pip install yfinance
