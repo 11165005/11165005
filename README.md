@@ -2,10 +2,13 @@
 
 👋
 ## Abstract
-在這項工作中，我們提出了一種檢測罕見事件的方法，這些罕見事件是定義為相對於交易量的較大價格變動。我們分析
-檢測到這些罕見事件后的公平行為。我們提供根據這些事件的檢測來校準交易規則的方法，以及說明特定交易規則。我們將該方法應用於即時報價數據
-在五天內購買數千隻股票。為了得出全面的結論，我們將股票分組，並計算每個類別在這些罕見事件之後價格回升的概率。我們開發的方法基於非參數統計，並使
-沒有關於研究中隨機變數分佈的假設
+In this work we present a methodology to detect rare events which are 
+defined as large price movements relative to the volume traded. We analyze 
+the behavior of equity after the detection of these rare events. We provide 
+methods to calibrate trading rules based on the detection of these events and 
+illustrate for a particular trading rule. We apply the methodology to tick data 
+for thousands of equities over a period of five days. In order to draw comprehensive conclusions, we group the equities into classes and calculate probabilities of price recovery after these rare events for each class. The methodology that we have developed is based on non-parametric statistics and makes 
+no assumption about the distribution of the random variables in the study.
 <br>-**捉歷史股價的工具**
 ```python
 !pip install yfinance
