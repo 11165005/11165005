@@ -1,6 +1,5 @@
-# 高頻罕見事件分析-APPLE股票數據
-
-👋
+# 高頻罕見事件分析-APPLE股票數據👋
+Rare Events Analysis for High-Frequency Equity Data
 ## Abstract
 In this work we present a methodology to detect rare events which are 
 defined as large price movements relative to the volume traded. We analyze 
@@ -9,6 +8,8 @@ methods to calibrate trading rules based on the detection of these events and
 illustrate for a particular trading rule. We apply the methodology to tick data 
 for thousands of equities over a period of five days. In order to draw comprehensive conclusions, we group the equities into classes and calculate probabilities of price recovery after these rare events for each class. The methodology that we have developed is based on non-parametric statistics and makes 
 no assumption about the distribution of the random variables in the study.
+## Keywords
+high-frequency trading, average daily volume, trading strategy<br>
 <br>-**捉歷史股價的工具**
 ```python
 !pip install yfinance
