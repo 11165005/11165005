@@ -17,7 +17,8 @@ high-frequency trading, average daily volume, trading strategy<br>
 ## Objectives
 開發一種即時檢測罕見事件的方法，其中價格變動較大且股票交易量相對較小<br>
 分析這些罕見事件后的價格行為，研究價格回升的概率。如果進行交易，在檢測到的觀察中，預期回報是多少？<br>
-
+## Methodology
+運用Rare Events Analysis for High-Frequency Equity Data論文所提供的方法，計算APPLE在一年內歷史股價，進行高頻罕見事件分析
 <br>-**捉歷史股價的工具**
 ```python
 !pip install yfinance
