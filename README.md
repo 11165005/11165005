@@ -54,17 +54,17 @@ data = hist[["Close", "Volume"]]
 data.head()
 ```
 
-<br>-**for迴圈**
+<br>-**輸出Volume**
 ```python
 data["Volume"].sum()
 ```
 
-<br>-**for迴圈**
+<br>-
 ```python
 data.shape
 ```
 
-<br>-**for迴圈**
+<br>-
 ```python
 print(data.iloc[0, 1])
 print(data.iloc[-1, 1])
@@ -75,7 +75,7 @@ for i in range(0, data.shape[0]-1):
 print(s_sum)
 ```
 
-<br>-**for迴圈**
+<br>-
 ```python
 #for i in range(0, data.shape[0]):
  # print( int(data.iloc[j, 0]), int(data.iloc[j, 1]))
@@ -141,11 +141,6 @@ se = float(df_dp.std() / len(hist)**0.5)
 print(m-1.96*se)
 ```
 
-<br>-**for迴圈**
-```python
-for i in <some list>:
- <do something for each i here>
-```
 
 
 <!--
